@@ -23,8 +23,11 @@ namespace WPF_git
         public MainWindow()
         {
             InitializeComponent();
+        }
 
-            ciao.Content = "Hello, WPorld!";
+        private void btnStampa_Click(object sender, RoutedEventArgs e)
+        {
+            ciao.Content = "Hello, World!";
         }
     }
 }
